@@ -140,8 +140,8 @@
       <div class="publication-video">
         <iframe src="https://www.youtube.com/embed/ubvyK1Hs8KM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </div>
-      <h2 class="subtitle has-text-centered">
-        We propose a unified framework for human motion transfer allows for good fidelity in 2D appearance transfer by estimating 2D motion flow, while establishing pose accuracy through 2.5D geometric reasoning. We highlight our strengths for motion transfer in three aspects: 1) Recovering correct geometry and details. For results from TED-Talks, the arm and hand pose of the source person are correctly transferred. 2) Handling back-to-front flips and heavy self-occlusion. Our model can better handle front-to-back view motion transfer in the TaiChiHD dataset, producing correct geometry despite substantial self-occlusion. 3) Preserving video animation stability and consistency. The examples from the iPER dataset show driving sequences with turning-around motion and large variation between source and driving images.
+      <h2 class="subtitle has-text-justified">
+        <b>Broad view of our approach and demo results.</b> We propose a unified framework for human motion transfer allows for good fidelity in 2D appearance transfer by estimating 2D motion flow, while establishing pose accuracy through 2.5D geometric reasoning. We highlight our strengths for motion transfer in three aspects: 1) Recovering correct geometry and details. For results from TED-Talks, the arm and hand pose of the source person are correctly transferred. 2) Handling back-to-front flips and heavy self-occlusion. Our model can better handle front-to-back view motion transfer in the TaiChiHD dataset, producing correct geometry despite substantial self-occlusion. 3) Preserving video animation stability and consistency. The examples from the iPER dataset show driving sequences with turning-around motion and large variation between source and driving images.
       </h2>
     </div>
   </div>
@@ -179,7 +179,7 @@
       <img src="static/images/pipeline.png" alt="MY ALT TEXT"/>
       <!-- <h1 class="subtitle has-text-centered"> -->
         <b>Overview of our proposed pipeline: </b>The MotionNet (a) produces the dense motion flow and translation signals for the appearance and geometry translation branches. We combine multi-scale feature warping (b) and neural texture mapping (c) into a unified framework for motion transfer. The translated appearance and geometry features are integrated by BlenderNet(d) for image refinement.
-        
+
       <!-- </h1> -->
     </div>
   </div>
